@@ -1,0 +1,1 @@
+Hey {{user.firstName}}, Here is your booking confirmation!
