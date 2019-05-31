@@ -2,7 +2,7 @@
 <head></head>
 <body>
   <h1>Hi {{user.firstName}} {{user.lastName}}!</h1>
-  <img src="{{sale.photos[0].url}}" alt="{{sale.photos[0].caption}}"/>
+  <img src="{{sale.photos.0.url}}" alt="{{sale.photos[0].caption}}"/>
   <p>Here is your booking confirmation for {{sale.name}}</p>
   <h2>Hotel details</h2>
   <p>{{sale.name}}</p>
