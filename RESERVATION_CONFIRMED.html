@@ -2,6 +2,18 @@
 <head></head>
 <body>
   <h1>Hi {{user.firstName}} {{user.lastName}}!</h1>
-  <p>This is a very simple example of booking confirmation.</p>
+  <p>Here is your booking confirmation for {{sale.name}}</p>
+  <h2>Hotel details</h2>
+  <p>{{sale.name}}</p>
+  <p>{{sale.hoteladdress1}}</p>
+  <p>{{sale.hoteladdress2}}</p>
+  <p>{{sale.hoteladdress3}}</p>
+  <p>{{sale.hotelcountry}}</p>
+  <h2>Stay details</h2>
+  <p>Check-in: {{booking.checkin}}</p>
+  <p>Check-out: {{booking.checkout}}</p>
+  <p>Duration: {{booking.duration}} nights</p>
+  <p>Number of rooms: {{booking.numberOfRooms}}</p>
+  <p>Total price: £{{booking.totalprice}}</p>
 </body>
 </html>
